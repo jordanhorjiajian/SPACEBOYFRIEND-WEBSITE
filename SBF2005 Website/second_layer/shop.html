@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPACEBOYFRIEND 2005 - SHOP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Michroma', sans-serif;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .brand-name {
+            justify-self: start;
+            font-size: 1.5rem;
+        }
+
+        .logo {
+            justify-self: center;
+        }
+
+        .logo img {
+            height: 120px;
+        }
+
+        .nav-links {
+            justify-self: end;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            border: 1px solid #333;
+            padding: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            border-color: #666;
+        }
+
+        .product-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .product-price {
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .sort-by {
+            text-align: right;
+            margin-bottom: 20px;
+            color: #777;
+        }
+
+        .footer {
+            margin-top: 50px;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            text-align: center;
+            color: #555;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="brand-name">SPACEBOYFRIEND 2005</div>
+        <div class="logo">
+            <img src="logo.jpg" alt="SPACEBOYFRIEND 2005 Logo" />
+        </div>
+        <div class="nav-links">
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="sort-by">
+        SOFT BY: FEATURED +
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-title">WHITE TEE</div>
+            <div class="product-price">COMING SOON</div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-title">BLACK TEE</div>
+            <div class="product-price">COMING SOON</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div style="margin-top: 10px;">Copyright © 2025, SPACEBOYFRIEND 2005. Powered by AWESOMENESS</div>
+    </div>
+</body>
+</html>
